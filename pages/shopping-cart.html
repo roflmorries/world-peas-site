@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" type="text/css" href="../style/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="wrapper">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                World Peas
+            </div>
+
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="../pages/product-page.html">Shop</a></li>
+                    <li class="header__item"><a href="#">Newstand</a></li>
+                    <li class="header__item"><a href="../index.html">Who we are</a></li>
+                    <li class="header__item"><a href="#">My Profile</a></li>
+                    <li class="header__item"> <a href="../pages/shopping-cart.html" class="header__button">Basket (3)</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="basket__header">
+        <h1>Basket</h1>
+        <span>3 items</span>
+    </div>
+
+    <div class="basket__container">
+        <div class="product__list">
+
+            <div class="product__item">
+                <div class="product__image">
+                    <img src="/images/ed-o-neil-AvvdZlhDowA-unsplash%201.png" alt="tomato" width="160" height="160">
+                </div>
+
+                <div class="product__details">
+                    <p class="product__name">Heirloom tomato</p>
+                    <p class="product__price">$5.99 / lb</p>
+                    <div class="product__quantity">
+                        <input type="text" value="1 lb" readonly>
+                    </div>
+                </div>
+                <div class="product__total">$5.99</div>
+            </div>
+
+            <div class="product__item">
+                <div class="product__image">
+                    <img src="/images/noonbrew-ziCb4_EKmak-unsplash.png" alt="Ginger">
+                </div>
+                <div class="product__details">
+                    <p class="product__name">Organic ginger</p>
+                    <p class="product__price">$12.99 / lb</p>
+                    <div class="product__quantity">
+                        <input type="text" value="0.5 lb" readonly>
+                    </div>
+                </div>
+                <div class="product__total">
+                    $6.50
+                </div>
+            </div>
+
+            <div class="product__item">
+                <div class="product__image">
+                    <img src="/images/k8-0_fkPHulv-M-unsplash%202.png" alt="Onion">
+                </div>
+                <div class="product__details">
+                    <p class="product__name">Sweat onion</p>
+                    <p class="product__price">$2.99 / lb</p>
+                    <div class="product__quantity">
+                        <input type="text" value="5 lb" readonly>
+                    </div>
+                </div>
+                <div class="product__total">
+                    $14.95
+                </div>
+            </div>
+        </div>
+
+        <div class="order__summary">
+            <h3>Order summary</h3>
+            <div class="summary__details">
+                <p><span>Subtotal</span><span>$27.44</span></p>
+                <p><span>Shipping</span><span>$3.99</span></p>
+                <p><span>Tax</span><span>$2.00</span></p>
+                <p class="summary__total"><span>Total</span><span>$33.43</span></p>
+                <a href="#" class="order__button">Continue to payment &#8594</a>
+            </div>
+        </div>
+
+    </div>
+</main>
+</body>
+</html>
